@@ -1,7 +1,7 @@
 const formulario = document.getElementById("form-validation");
 
 function validar(numeroA, numeroB){
-    return numeroA.value > numeroB.value;
+    return numeroA.value < numeroB.value;
 }
 
 formulario.addEventListener("submit", function(e){
